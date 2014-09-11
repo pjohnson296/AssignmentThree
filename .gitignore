@@ -26,5 +26,5 @@ proguard/
 *.log
 
 # Classpath files
-.classpath
-*.classpath
+#.classpath
+#*.classpath
