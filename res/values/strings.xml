@@ -4,5 +4,7 @@
     <string name="app_name">AssignmentThree</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_second_page">SecondPageActivity</string>
+    <string name="alex_page">Alex made this page.</string>
 
 </resources>
