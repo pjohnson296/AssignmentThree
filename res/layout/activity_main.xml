@@ -6,14 +6,49 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:drawable/bottom_bar"
+        android:onClick="nextPage"
         android:text="Show me something new!"
-        android:onClick="nextPage" />
+        android:textColor="@android:color/secondary_text_dark" />
 
     <Button
         android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="93.99"
+        android:background="@android:drawable/alert_light_frame"
+        android:onClick="cutePage"
+        android:text="@string/cute_button"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="5.64" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cute_button"
-        android:onClick="cutePage" />
+        android:text="Feel free to journal your thoughts in the space provided above." />
 
 </TableLayout>
