@@ -38,8 +38,13 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
     
-	public void nextPage(View view) {
+    public void nextPage(View view) {
 		Intent intent = new Intent(this, SecondPageActivity.class);
+		startActivity(intent);
+	}
+    
+    public void cutePage(View view) {
+		Intent intent = new Intent(this, JoesActivity.class);
 		startActivity(intent);
 	}
 }

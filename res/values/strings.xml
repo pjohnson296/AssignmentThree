@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_second_page">SecondPageActivity</string>
     <string name="alex_page">Alex made this page.</string>
+    <string name="title_activity_joes">Joe\'s Activity</string>
+    <string name="cute_button">Show me something cute!</string>
 
 </resources>

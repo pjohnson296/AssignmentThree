@@ -26,6 +26,14 @@
             android:name=".SecondPageActivity"
             android:label="@string/title_activity_second_page" >
         </activity>
+        <activity
+            android:name=".JoesActivity"
+            android:label="@string/title_activity_joes"
+            android:parentActivityName="com.example.classexample.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.classexample.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
